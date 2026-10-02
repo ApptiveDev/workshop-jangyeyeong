@@ -15,11 +15,11 @@ def divide(a, b):
 
 
 def pow(a, b):
-    pass
+    return a ** b
 
 
 def abs(a):
-    pass
+    return -a if a < 0 else a
 
 
 def mod(a, b):
